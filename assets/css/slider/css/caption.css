@@ -1,0 +1,45 @@
+
+      
+        .captionOrange
+        {
+
+            background: #000;
+             color: #fff;
+
+            line-height: 20px;
+            text-align: justify;
+            font-size: 18px;
+            font-family: "Times New Roman", Times, serif;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 3px;
+            position: absolute;
+            left:5px;
+            bottom: 5px;
+            width:98%;
+            height:50px;
+
+        }
+        .captionBlack
+        {
+        	font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(img/browser-icons.png);
+        }
+
+

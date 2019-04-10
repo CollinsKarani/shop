@@ -1,0 +1,38 @@
+
+
+            .jssorb01 {
+                position: absolute;
+            }
+            .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+                position: absolute;
+                /* size of bullet elment */
+                width: 12px;
+                height: 12px;
+                filter: alpha(opacity=40);
+                opacity: .2;
+                overflow: hidden;
+                cursor: pointer;
+                border: #000 1px solid;
+            }
+            .jssorb01 div { background-color: gray; }
+            .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+            .jssorb01 .av { background-color: #fff; }
+            .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+
+            .jssora05l, .jssora05r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                background: url(../images/arrow/a09.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora05l { background-position: -10px -40px; }
+            .jssora05r { background-position: -70px -40px; }
+            .jssora05l:hover { background-position: -130px -40px; }
+            .jssora05r:hover { background-position: -190px -40px; }
+            .jssora05l.jssora05ldn { background-position: -250px -40px; }
+            .jssora05r.jssora05rdn { background-position: -310px -40px; }

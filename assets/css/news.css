@@ -1,0 +1,31 @@
+ /*  NEWS HEADLINES */
+ .news_section {
+    clear: both;
+    margin: 0 20px 20px 20px;
+}
+
+.news_section .news_date {
+    float: left;
+    width: 70px;
+    height: 60px;
+    padding: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:#ffffff;
+    background: url(../images/date.jpg);
+
+}
+
+.news_section .news_date span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.news_section .news_content {
+    margin-left:77px;
+
+}
+/*END OF NEWS       */
